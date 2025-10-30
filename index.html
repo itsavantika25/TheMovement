@@ -365,13 +365,13 @@ document.addEventListener('mousemove', e => {
 
 // ----------- FOLDER WINDOWS -----------
 
-const validFolders = ['folder1', 'folder2', 'folder3']; // these open correctly
-const openWindows = new Set(); // to track opened windows
+const validFolders = ['folder1', 'folder2', 'folder3']; 
+const openWindows = new Set(); 
 
 document.querySelectorAll('.folder').forEach(folder => {
   folder.addEventListener('click', () => {
     const id = folder.id;
-    // If folder is one of the valid ones → open its window
+ 
     if (validFolders.includes(id)) {
       const windowEl = document.getElementById(`window${id.replace('folder', '')}`);
       if (windowEl) {
@@ -383,7 +383,7 @@ document.querySelectorAll('.folder').forEach(folder => {
         bringToFront(windowEl);
       }
     } else {
-      showErrorWindow(); // For any other folder
+      showErrorWindow(); 
     }
   });
 });
@@ -392,7 +392,7 @@ document.querySelectorAll('.folder').forEach(folder => {
 function showErrorWindow() {
   let errorWin = document.getElementById('errorWindow');
   if (!errorWin) {
-    // Create it dynamically if it doesn't exist
+
     errorWin = document.createElement('div');
     errorWin.className = 'window error-window';
     errorWin.id = 'errorWindow';

@@ -189,7 +189,7 @@ body {
   position: relative;
   z-index: 2;
 }
-/* Circles Window Enhancements */
+
 .circles-body {
   position: relative;
   background: rgba(0, 0, 0, 0.2);
@@ -214,24 +214,6 @@ body {
   z-index: 1;
 }
 
-.label {
-  position: absolute;
-  font-family: 'Neometric', 'Poppins', sans-serif;
-  color: white;
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  z-index: 3;
-  white-space: nowrap;
-}
-
-/* Label positions matching your visual */
-.label-delhi { top: 100px; left: 70px; }
-.label-noida { top: 200px; left: 230px; }
-.label-gurgaon { top: 310px; left: 360px; }
-.label-rkpuram { top: 120px; left: 440px; }
-.label-southex { top: 170px; left: 470px; }
 
 
 .svg-wrapper {
