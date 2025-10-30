@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Movement</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Top Bar -->
+  <div class="top-bar" style="background-color: white;">
+    <span>29th October | 9:41PM</span>
+    <div class="sys-icons">
+     
+       <img src="volume.png" class="icon">
+        <img src="blue.png" class="icon">
+      <img src="wifi.png" class="icon">
+         <img src="slider.png" class="icon">
+              <img src="battery.png" class="icon">
+    </div>
+  </div>
+
+  <!-- Desktop -->
+  <div class="desktop">
+    <!-- Folders -->
+    <div class="folders">
+      <div class="folder"><img src="folder.png" alt=""><p class="blur">Block A-1,<br>Green Park</p></div>
+
+      
+
+    <div class="folder"><img src="folder.png" alt=""><p class="blur">K-32,<br>South Ex Part 2</p></div>
+      <div class="folder" id="folder3"><img src="folder.png" alt=""><p>C-5,<br>Vasant Kunj</p></div>
+
+      <div class="folders" style="margin-left: 70px;">
+          <div class="folder"><img src="folder.png" alt=""><p class="blur">Sector 62,<br>Noida</p></div>
+        
+      <div class="folder" id="folder2"><img src="folder.png" alt=""><p>G6R2+J6M,<br>Aurobindo Marg</p></div>
+            <div class="folder" id="folder1"><img src="folder.png" alt=""><p>Parvatiya Camp,<br>RK Puram</p></div>
+      </div>
+    </div>
+
+<div class="window folder-window" id="window1" style="display: none;">
+  <div class="window-header">
+    <button class="close-btn">×</button>
+  </div>
+  <div class="window-body">
+    <h2>Parvatiya Camp,
+RK Puram</h2>
+    <img src="folderss.png" alt="">
+  </div>
+</div>
+
+<div class="window folder-window" id="window2" style="display: none;">
+  <div class="window-header">
+    <button class="close-btn">×</button>
+  </div>
+  <div class="window-body">
+    <h2>G6R2+J6M,
+Aurobindo Marg</h2>
+    <img src="folderss.png" alt="">
+  </div>
+</div>
+
+<div class="window folder-window" id="window3" style="display: none;">
+  <div class="window-header">
+    <button class="close-btn">×</button>
+  </div>
+  <div class="window-body">
+    <h2>C-5, Vasant Kunj</h2>
+    <img src="folderss.png" alt="">
+  </div>
+</div>
+
+
+    <!-- Welcome Window -->
+    <div class="window" id="welcomeWindow">
+      <div class="window-header" id="dragHandle">
+        <button class="close-btn" id="closeBtn">×</button>
+      </div>
+      <div class="window-body">
+        <center>
+        <h2>Welcome To The<br>Movement.</h2>
+        <img src="flowerw.png" alt="Flower" class="flower-img">
+        <br>
+        <a href="#" class="learn-link">Learn More</a>
+        
+      </div>
+    </div>
+
+    <!-- Dock -->
+    <div class="dock">
+      <div class="dock-left">
+        <div class="dock-icon">
+<img src="trash.png" alt="">
+        </div>
+        <div class="dock-icon">
+<img src="settings.png" alt="">
+        </div>
+        <div class="dock-icon">
+<img src="Vector.png" alt="">
+        </div>
+     
+      </div>
+      <div class="dock-right">
+        <div class="dock-icon">
+<img src="file.png" alt="">
+        </div>
+        <div class="dock-icon power">
+<img src="switch.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Circles Window -->
+<div class="window" id="circlesWindow" style="display: none; top: 50%; left: 50%;">
+  <div class="window-header" id="dragHandle2">
+    <button class="close-btn" id="closeCirclesBtn">×</button>
+  </div>
+  <div class="window-body circles-body">
+    <div class="svg-wrapper">
+      <!-- Background glow -->
+      <div class="glow"></div>
+
+      <!-- Circles SVG -->
+      <div class="svgcontent">
+        <div class="svg-wrapper">
+  <svg class="svg-base" viewBox="0 0 600 400">
+   <svg width="586" height="394" viewBox="0 0 586 394" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_226_176)">
+<g filter="url(#filter1_d_226_176)">
+<circle cx="90" cy="101" r="83" fill="#001D3D" fill-opacity="0.9" shape-rendering="crispEdges"/>
+</g>
+<g filter="url(#filter2_d_226_176)">
+<circle cx="194" cy="189" r="106" fill="#D63F30" fill-opacity="0.9" shape-rendering="crispEdges"/>
+</g>
+<circle cx="323.5" cy="138.5" r="75.5" fill="#281674" fill-opacity="0.9"/>
+<g filter="url(#filter3_d_226_176)">
+<circle cx="440.783" cy="76.783" r="75.5" transform="rotate(-0.981921 440.783 76.783)" fill="#A10045" fill-opacity="0.9" shape-rendering="crispEdges"/>
+</g>
+<g filter="url(#filter4_d_226_176)">
+<circle cx="514.809" cy="141.809" r="63.7262" transform="rotate(-0.981921 514.809 141.809)" fill="#000813" fill-opacity="0.9" shape-rendering="crispEdges"/>
+</g>
+<g filter="url(#filter5_d_226_176)">
+<circle cx="336.5" cy="277.5" r="102.5" fill="#FFC300" fill-opacity="0.8" shape-rendering="crispEdges"/>
+</g>
+<g filter="url(#filter6_d_226_176)">
+<path d="M365.5 76.5C375 82.5 398 98.5 399 140C389.5 133.5 365.5 116.5 365.5 76.5Z" fill="#FFC300" fill-opacity="0.8" shape-rendering="crispEdges"/>
+</g>
+<g filter="url(#filter7_d_226_176)">
+<path d="M451.501 151C476.001 147.5 514.4 124.8 516 78C491.5 75.4991 445.501 97.5006 451.501 151Z" fill="#281674" fill-opacity="0.9" shape-rendering="crispEdges"/>
+</g>
+<g filter="url(#filter8_d_226_176)">
+<path d="M88 184.5C141.001 182 179.501 142.5 171.501 85.5C146.001 90 92.5 114 88 184.5Z" fill="#FFC300" fill-opacity="0.8" shape-rendering="crispEdges"/>
+</g>
+<g filter="url(#filter9_d_226_176)">
+<path d="M298 209.5C288.5 258.5 251.5 280.5 234.5 287C229 244.5 254 210.5 274.5 196C280.5 201 291.5 207 298 209.5Z" fill="#281674" fill-opacity="0.9" shape-rendering="crispEdges"/>
+</g>
+<g filter="url(#filter10_d_226_176)">
+<path d="M299.999 182C297.999 143 274.499 116.5 256.499 103.5C232.999 151 264.5 189.5 274.499 196C280.5 190.5 293.333 184.833 299.999 182Z" fill="#A10045" fill-opacity="0.9" shape-rendering="crispEdges"/>
+</g>
+<g filter="url(#filter11_d_226_176)">
+<path d="M299.5 182C339.5 165.5 372.5 180 382.5 186C374 197 341.5 225.5 298 209.5C298.5 204.5 300.5 190 299.5 182Z" fill="#D63F30" fill-opacity="0.9" shape-rendering="crispEdges"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_226_176" x="0" y="1.2832" width="585.535" height="392.717" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="7"/>
+<feGaussianBlur stdDeviation="3.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0509804 0 0 0 0 0.0431373 0 0 0 0 0.164706 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_226_176"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_226_176" result="shape"/>
+</filter>
+<filter id="filter1_d_226_176" x="3" y="18" width="174" height="174" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_226_176"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_226_176" result="shape"/>
+</filter>
+<filter id="filter2_d_226_176" x="84" y="83" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_226_176"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_226_176" result="shape"/>
+</filter>
+<filter id="filter3_d_226_176" x="361.283" y="1.2832" width="159" height="159" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_226_176"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_226_176" result="shape"/>
+</filter>
+<filter id="filter4_d_226_176" x="447.082" y="78.083" width="135.453" height="135.453" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_226_176"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_226_176" result="shape"/>
+</filter>
+<filter id="filter5_d_226_176" x="230" y="175" width="213" height="213" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_226_176"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_226_176" result="shape"/>
+</filter>
+<filter id="filter6_d_226_176" x="361.5" y="76.5" width="41.5" height="71.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_226_176"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_226_176" result="shape"/>
+</filter>
+<filter id="filter7_d_226_176" x="446.967" y="77.8096" width="73.0332" height="81.1904" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_226_176"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_226_176" result="shape"/>
+</filter>
+<filter id="filter8_d_226_176" x="84" y="85.5" width="92.5547" height="107" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_226_176"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_226_176" result="shape"/>
+</filter>
+<filter id="filter9_d_226_176" x="229.729" y="196" width="72.2715" height="99" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_226_176"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_226_176" result="shape"/>
+</filter>
+<filter id="filter10_d_226_176" x="243.979" y="103.5" width="60.0215" height="100.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_226_176"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_226_176" result="shape"/>
+</filter>
+<filter id="filter11_d_226_176" x="294" y="174.368" width="92.5" height="47.8984" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_226_176"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_226_176" result="shape"/>
+</filter>
+</defs>
+</svg>
+        </svg>
+  </svg>
+
+
+</div>
+
+      
+      
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+<script>
+// ----------- CLOSE + DRAG FOR WELCOME WINDOW -----------
+const closeBtn = document.getElementById('closeBtn');
+const win = document.getElementById('welcomeWindow');
+closeBtn.addEventListener('click', () => {
+  win.classList.add('fade-out');
+  setTimeout(() => win.style.display = 'none', 300);
+});
+
+// Draggable for welcome window
+const handle = document.getElementById('dragHandle');
+let isDragging = false, offsetX, offsetY;
+handle.addEventListener('mousedown', e => {
+  isDragging = true;
+  offsetX = e.clientX - win.offsetLeft;
+  offsetY = e.clientY - win.offsetTop;
+  win.style.transition = 'none';
+});
+document.addEventListener('mouseup', () => isDragging = false);
+document.addEventListener('mousemove', e => {
+  if (!isDragging) return;
+  win.style.left = `${e.clientX - offsetX}px`;
+  win.style.top = `${e.clientY - offsetY}px`;
+});
+
+// ----------- CIRCLES WINDOW -----------
+const fileIcon = document.querySelector('.dock-right .dock-icon img[src="file.png"]');
+const circlesWindow = document.getElementById('circlesWindow');
+const closeCirclesBtn = document.getElementById('closeCirclesBtn');
+const dragHandle2 = document.getElementById('dragHandle2');
+
+// Open Circles window
+fileIcon.addEventListener('click', () => {
+  circlesWindow.style.display = 'block';
+  circlesWindow.style.opacity = '1';
+  circlesWindow.style.transition = 'opacity 0.3s ease';
+});
+
+// Close Circles window
+closeCirclesBtn.addEventListener('click', () => {
+  circlesWindow.classList.add('fade-out');
+  setTimeout(() => circlesWindow.style.display = 'none', 300);
+  circlesWindow.classList.remove('fade-out');
+});
+
+// Drag Circles window
+let dragging2 = false, offsetX2, offsetY2;
+dragHandle2.addEventListener('mousedown', e => {
+  dragging2 = true;
+  offsetX2 = e.clientX - circlesWindow.offsetLeft;
+  offsetY2 = e.clientY - circlesWindow.offsetTop;
+  circlesWindow.style.transition = 'none';
+});
+document.addEventListener('mouseup', () => dragging2 = false);
+document.addEventListener('mousemove', e => {
+  if (!dragging2) return;
+  circlesWindow.style.left = `${e.clientX - offsetX2}px`;
+  circlesWindow.style.top = `${e.clientY - offsetY2}px`;
+});
+
+// ----------- FOLDER WINDOWS -----------
+
+const validFolders = ['folder1', 'folder2', 'folder3']; // these open correctly
+const openWindows = new Set(); // to track opened windows
+
+document.querySelectorAll('.folder').forEach(folder => {
+  folder.addEventListener('click', () => {
+    const id = folder.id;
+    // If folder is one of the valid ones → open its window
+    if (validFolders.includes(id)) {
+      const windowEl = document.getElementById(`window${id.replace('folder', '')}`);
+      if (windowEl) {
+        windowEl.style.display = 'block';
+        windowEl.style.opacity = '1';
+        windowEl.style.transition = 'opacity 0.3s ease';
+        windowEl.style.top = `${Math.random() * 150 + 120}px`;
+        windowEl.style.left = `${Math.random() * 300 + 200}px`;
+        bringToFront(windowEl);
+      }
+    } else {
+      showErrorWindow(); // For any other folder
+    }
+  });
+});
+
+// ----------- ERROR WINDOW (for invalid folders) -----------
+function showErrorWindow() {
+  let errorWin = document.getElementById('errorWindow');
+  if (!errorWin) {
+    // Create it dynamically if it doesn't exist
+    errorWin = document.createElement('div');
+    errorWin.className = 'window error-window';
+    errorWin.id = 'errorWindow';
+    errorWin.innerHTML = `
+      <div class="window-header"><button class="close-btn">×</button></div>
+      <div class="window-body">
+        <h2>Error: File Inaccessible!</h2>
+        <p>CODE: 340.B</p>
+      </div>`;
+    document.body.appendChild(errorWin);
+    makeDraggable(errorWin);
+    errorWin.querySelector('.close-btn').addEventListener('click', () => {
+      errorWin.classList.add('fade-out');
+      setTimeout(() => errorWin.style.display = 'none', 300);
+      errorWin.classList.remove('fade-out');
+    });
+  }
+  errorWin.style.display = 'block';
+  errorWin.style.opacity = '1';
+  errorWin.style.transition = 'opacity 0.3s ease';
+  errorWin.style.top = `${Math.random() * 150 + 100}px`;
+  errorWin.style.left = `${Math.random() * 250 + 250}px`;
+  bringToFront(errorWin);
+}
+
+// ----------- DRAGGABLE WINDOWS (for all folder windows) -----------
+document.querySelectorAll('.folder-window').forEach(makeDraggable);
+
+function makeDraggable(win) {
+  const header = win.querySelector('.window-header');
+  let dragging = false, x = 0, y = 0;
+  header.addEventListener('mousedown', e => {
+    dragging = true;
+    x = e.clientX - win.offsetLeft;
+    y = e.clientY - win.offsetTop;
+    bringToFront(win);
+  });
+  document.addEventListener('mouseup', () => dragging = false);
+  document.addEventListener('mousemove', e => {
+    if (!dragging) return;
+    win.style.left = `${e.clientX - x}px`;
+    win.style.top = `${e.clientY - y}px`;
+  });
+}
+
+// ----------- WINDOW STACKING (bring clicked window to front) -----------
+let zIndexCounter = 2000;
+function bringToFront(el) {
+  zIndexCounter++;
+  el.style.zIndex = zIndexCounter;
+}
+
+
+document.querySelectorAll('.folder-window .close-btn').forEach(btn => { btn.addEventListener('click', e => { const win = e.target.closest('.folder-window'); win.classList.add('fade-out'); setTimeout(() => (win.style.display = 'none'), 300); win.classList.remove('fade-out'); }); });
+</script>
+
+
+</body>
+</html>
